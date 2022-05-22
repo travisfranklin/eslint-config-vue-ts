@@ -1,0 +1,28 @@
+{
+  "name": "@travisfranklin/eslint-config-vue-ts",
+  "version": "0.0.1",
+  "description": "An eslint configuration for Vue and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Travis Franklin <hello@travislf.com>",
+  "repository": "https://github.com/travisfranklin/eslint-config-vue-ts",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/eslint-config-standard": "^5.1.2",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2"
+  }
+}
